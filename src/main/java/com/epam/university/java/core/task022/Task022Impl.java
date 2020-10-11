@@ -1,6 +1,9 @@
 package com.epam.university.java.core.task022;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Task022Impl implements Task022 {
 

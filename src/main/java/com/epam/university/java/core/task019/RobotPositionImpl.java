@@ -31,8 +31,8 @@ public class RobotPositionImpl implements RobotPosition {
     }
 
     /**
+     * Rotate robot on special angle.
      * @param angle in degrees
-     * @return new angle after rotation
      */
     public void setAngle(int angle) {
         this.angle = angle;

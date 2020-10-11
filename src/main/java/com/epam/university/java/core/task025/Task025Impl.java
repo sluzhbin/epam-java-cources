@@ -8,7 +8,7 @@ public class Task025Impl implements Task025 {
             throw new IllegalArgumentException();
         }
         StringBuilder sb = new StringBuilder();
-        for(int i = 0; i <= sourceMessage.length() / 3; i++ ){
+        for (int i = 0; i <= sourceMessage.length() / 3; i++) {
             sb.append("SOS");
         }
         int count = 0;

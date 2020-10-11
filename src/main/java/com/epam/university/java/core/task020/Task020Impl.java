@@ -1,6 +1,12 @@
 package com.epam.university.java.core.task020;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
+
 
 public class Task020Impl implements Task020 {
 
@@ -29,8 +35,7 @@ public class Task020Impl implements Task020 {
     }
 
     /**
-     * Delete duplicates characters
-     *
+     * Delete duplicates characters.
      * @param string with duplicates
      * @return new string without duplicates
      */

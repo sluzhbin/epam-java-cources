@@ -4,7 +4,7 @@ public class Task028Impl implements Task028 {
 
     @Override
     public int getWays(int value, int power) {
-        if(value == 0 || power == 0) {
+        if (value == 0 || power == 0) {
             throw new IllegalArgumentException();
         }
         return countWays(value, power, 1);
