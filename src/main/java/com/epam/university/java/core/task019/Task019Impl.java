@@ -1,7 +1,5 @@
 package com.epam.university.java.core.task019;
 
-import com.epam.university.java.core.task013.FigureAction;
-
 public class Task019Impl implements Task019 {
 
     @Override
@@ -14,7 +12,7 @@ public class Task019Impl implements Task019 {
 
     @Override
     public boolean isOnStartPosition(Robot robot) {
-        if(robot == null) {
+        if (robot == null) {
             throw new IllegalArgumentException();
         }
         return robot.getPosition().getX() == 0 && robot.getPosition().getY() == 0;
