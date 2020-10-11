@@ -11,9 +11,9 @@ public class Task026Impl implements Task026 {
         int[] ints = new int[chars.length];
         for (int j = 0; j < ints.length; j++) {
             ints[j] = chars[j] - 0;
-            if(Character.isAlphabetic(chars[j]) && Character.isUpperCase(chars[j])){
+            if (Character.isAlphabetic(chars[j]) && Character.isUpperCase(chars[j])) {
                 ints[j] = (chars[j] + shift % 26 - 65) % 26 + 65;
-            } else if(Character.isAlphabetic(chars[j]) && Character.isLowerCase(chars[j])) {
+            } else if (Character.isAlphabetic(chars[j]) && Character.isLowerCase(chars[j])) {
                 ints[j] = (chars[j] + shift % 26 - 97) % 26 + 97;
             }
         }
