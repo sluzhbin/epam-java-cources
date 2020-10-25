@@ -1,5 +1,7 @@
 package com.epam.university.java.core.task031;
 
+import java.io.IOException;
+
 /**
  * Chat server.
  */
@@ -8,7 +10,7 @@ public interface Server {
      * Read last received message.
      * @return message text
      */
-    String readMessage();
+    String readMessage() throws IOException;
 
     /**
      * Start chat server.
