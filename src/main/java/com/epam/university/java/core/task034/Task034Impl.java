@@ -46,6 +46,7 @@ public class Task034Impl implements Task034 {
         return person;
     }
 
+    @Override
     public Person readWithStaxParser(XMLStreamReader streamReader) {
         PersonImpl person = null;
         Collection<PhoneNumber> phones = new ArrayList<>();
